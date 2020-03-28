@@ -1,0 +1,23 @@
+@media(min-width: 1px) {
+    .bkgdimg {
+        background: url('img/mom-300.jpg') no-repeat;
+        /* set a height here so that the image shows up */
+        /* content usually determines the height so we need something here */
+        height: 50px;
+        color: red;
+    }
+}
+
+@media(min-width: 500px) {
+    .bkgdimg {
+        background: url('img/mom-767.jpg') no-repeat;
+        height: 128px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .bkgdimg {
+        background: url('img/mom-1200.jpg') no-repeat;
+        height: 200px;
+    }
+}
